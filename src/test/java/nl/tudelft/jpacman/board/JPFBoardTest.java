@@ -46,12 +46,12 @@ public class JPFBoardTest {
 		}
 
 		@Test
-		public void test4() {
+		public void test5() {
 			nl_tudelft_jpacman_board_board.withinBorders(2,10);
 		}
 
 		@Test
-		public void test4() {
+		public void test6() {
 			nl_tudelft_jpacman_board_board.withinBorders(10,10);
 		}
 
