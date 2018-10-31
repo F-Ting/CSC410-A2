@@ -33,17 +33,26 @@ public class JPFBoardTest {
 
 		@Test
 		public void test2() {
-			nl_tudelft_jpacman_board_board.withinBorders(0,-20);
+			nl_tudelft_jpacman_board_board.withinBorders(2,0);
 		}
 
 		@Test
 		public void test3() {
-			nl_tudelft_jpacman_board_board.withinBorders(2,-20);
+			nl_tudelft_jpacman_board_board.withinBorders(2,3);
+		}
+		@Test
+		public void test4() {
+			nl_tudelft_jpacman_board_board.withinBorders(10,3);
 		}
 
 		@Test
 		public void test4() {
-			nl_tudelft_jpacman_board_board.withinBorders(-20,-20);
+			nl_tudelft_jpacman_board_board.withinBorders(2,10);
+		}
+
+		@Test
+		public void test4() {
+			nl_tudelft_jpacman_board_board.withinBorders(10,10);
 		}
 
 
